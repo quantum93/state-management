@@ -10,7 +10,7 @@ const AddMovie = () => {
     setName(e.target.value);
   }
   const updatePrice = (e) => {
-    setName(e.target.value);
+    setPrice(e.target.value);
   }
 
   const addMovie = e => {
