@@ -4,7 +4,7 @@ import {MovieContext} from './MovieContext';
 const AddMovie = () => {
   const [name, setName] = useState('');
   const [price, setPrice] = useState('');
-  const [movies,setMovies] = useContext(MovieContext);
+  const [movies, setMovies] = useContext(MovieContext);
 
   const updateName = (e) => {
     setName(e.target.value);
