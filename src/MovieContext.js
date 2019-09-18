@@ -9,7 +9,7 @@ export const MovieProvider = (props) => {
     {name: 'Inception', price: "$10", id: 23524}
   ]);
   return(
-    <MovieContext.Provider value={'Hello'}>
+    <MovieContext.Provider value={[movies,setMovies]}>
       {props.children}
     </MovieContext.Provider>
   );
